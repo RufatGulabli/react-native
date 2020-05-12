@@ -10,10 +10,7 @@ export default HomeStack = createStackNavigator({
         screen: Home,
         navigationOptions: ({ navigation }) => {
             return {
-                headerTitle: () => <Header navigation={navigation} title='GameZone' />,
-                headerStyle: {
-                    backgroundColor: 'skyblue'
-                }
+                headerTitle: () => <Header navigation={navigation} title='GameZone' />
             }
         }
     },

@@ -14,7 +14,7 @@ export default function App() {
 
   const [isFontLoaded, setFontLoaded] = useState(false);
 
-  // When App starts, firstly downloades the fonts, then loads <Navigator /> component
+  // When App starts, firstly downloads the fonts, then loads <Navigator /> component
   // which contains routing for the whole application.
   return isFontLoaded
     ? <Navigator />

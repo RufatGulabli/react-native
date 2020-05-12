@@ -8,10 +8,7 @@ export default AboutStack = createStackNavigator({
         screen: About,
         navigationOptions: ({ navigation }) => {
             return {
-                headerTitle: () => <Header navigation={navigation} title='About' />,
-                headerStyle: {
-                    backgroundColor: 'skyblue'
-                }
+                headerTitle: () => <Header navigation={navigation} title='About' />
             }
         }
     }
